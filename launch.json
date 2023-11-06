@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "http://localhost",
+        "serverInstance": "BC200",
+         "port": 7049,
+      // "serverInstance": "OAG_Development",
+      // "port": 7059,
+            "authentication": "UserPassword",
+            "startupObjectId": 9006,
+            "startupObjectType":"Page",
+            "breakOnError": true,
+            "launchBrowser": true, 
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode":"ForceSync"
+        }
+    ]
+}
